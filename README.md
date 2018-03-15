@@ -32,6 +32,7 @@ II.  After saving the correct config file by pressing the save-config button, pr
      button to build the first key-word mining list.
      Now, you are ready and set to check the relevance of individual pdf files in your collection 
      according to these keywords.
+
 III. Copy your collection of pdf files to “your-main-folder”/check and press the “Check” button.
 
 IV.  After short time, usually below some couple of seconds, the result list will appear in the 
@@ -44,11 +45,15 @@ V.   You can also use the “search web” button to do a quick literature searc
 
 Folder structure:
 
-main-folder -->   check = in this folder you have to place the papers you want to check
-	        -->   pdf = after pressing the store-button the pdf-files will be copied here and 
-                            deleted from the checked folder.
-	        -->   texts = after converting pdf-files to text-files the text-files will be stored 
-                              here for mining
+main-folder -->   
+
+check = in this folder you have to place the papers you want to check
+
+pdf = after pressing the store-button the pdf-files will be copied here and 
+      deleted from the checked folder.
+
+texts = after converting pdf-files to text-files the text-files will be stored 
+        here for mining
 
 WARNING: papers are deleted permanently from the check folder by using the delete-button. Therefore, 
          do only copy papers into the check folder and keep your library in another directory.  
@@ -134,8 +139,13 @@ pdf2text converter
 
 Installation on a Linux machine:
 
-I.	Click on the SteM-x_all.deb in your install folder and follow the instructions.
-II.	Run stem from the terminal.
+Ia.	Click on the SteM-x_all.deb in your install folder and follow the instructions (e.g. Synaptic)
+IIa.	Run stem from the terminal
+
+or
+
+Ib.     sudo dpkg -i package_file.deb
+IIb.    Run stem from the terminal
 
 Installation on a Windows machine:
 
@@ -147,8 +157,8 @@ Work-around for Windows, when you have no admin-rights:
 I.	Unpack the SteM-x.tar.gz in a folder with install rights.
 II.	Open the file mdm_config.py in a text-editor and change the following:
 	delete or comment out the line: path = „usr/local/etc“ line 
-        and uncomment the line: path = os.getcwd() . 
-        Save the mdm_config.py file
+and uncomment the line: path = os.getcwd() . 
+Save the mdm_config.py file
 III.	Run pyhton3 stem.
 
 
