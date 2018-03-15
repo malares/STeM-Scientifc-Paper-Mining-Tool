@@ -5,7 +5,7 @@ STeM is a text mining tool to help scientists and researchers evaluate new paper
 area of interest. The program was born out of a desire to easily analyze scientific papers
 and to help scientists or researchers to decide whether the paper is interesting or not.
 The analysis is based on the idea that important nouns exist in the vicinity of the
-selected keywords and are often used together. A contextual cross-correlation between the 
+selected keywords and are often used together. A categorical cross-correlation between the 
 nouns can find appropriate new keywords.
 The resulting data-mining keywords are used to make a prediction about how important any new
 paper is.
@@ -147,8 +147,8 @@ Work-around for Windows, when you have no admin-rights:
 I.	Unpack the SteM-x.tar.gz in a folder with install rights.
 II.	Open the file mdm_config.py in a text-editor and change the following:
 	delete or comment out the line: path = „usr/local/etc“ line 
-and uncomment the line: path = os.getcwd() . 
-Save the mdm_config.py file
+        and uncomment the line: path = os.getcwd() . 
+        Save the mdm_config.py file
 III.	Run pyhton3 stem.
 
 
