@@ -64,10 +64,11 @@ B. HISTORY OF THE SOFTWARE
 STeM was built during a feasibility study I made to see whether it is possible to evaluate
 scientific papers by nouns or not. I used papers out of my area of knowledge (receiver
 coupling to the seafloor, microseismic and seismic on ice) and compared the text-mining
-results with my personal assessment of the articles. I
-got a good agreement between my assessment and the text-mining results. 
-This promising result helped to focus only on the interesting papers without reading them 
-first. I even found some papers I did not find before, by using the “search web”-button..
+results with my personal assessment of the articles. I got a good agreement between my 
+assessment and the text-mining results. 
+This promising result helped to focus only on the interesting papers without reading all of 
+them first. I even found some papers I did not find before, by using the “search web”-button.
+
 Since, I am no expert in all areas ;-) I would very much appreciate your feedback to this 
 little program and how helpful you deem it to be for your area of interest. 
 
