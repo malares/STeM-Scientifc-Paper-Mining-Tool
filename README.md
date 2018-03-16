@@ -143,20 +143,24 @@ Installation on a Linux machine:
 --------------------------------
 
 Ia.	Click on the SteM-x_all.deb in your install folder and follow the instructions (e.g. Synaptic)
+
 IIa.	Run stem from the terminal
 
 or
 
 Ib.     sudo dpkg -i package_file.deb
+
 IIb.    Run stem from the terminal
 
 or      
 
 Ic.     unpack STeM-x.x.tar.gz into a folder of your choice
+
 IIc.	Open the file mdm_config.py in a text-editor and change the following:
 	delete or comment out the line: path = „usr/local/etc“ line 
         and uncomment the line: path = os.getcwd(). 
         Save the mdm_config.py file
+
 IIIc.   run shell-script stem in the folder of your choice from the terminal
 
 
@@ -166,13 +170,7 @@ Installation on a Windows machine:
 This do not require admin rights:
 
 I.	unpack the STeM-x.x.zip into a folder of your choice
+
 II.	run the stem.exe file
 
-
-
-Installed files:
-
-	stem               /usr/local/bin        main python script
-	stem_config.cfg    /usr/local/etc        main config file
-	stem_readme        /usr/local/etc        help text-file
 
