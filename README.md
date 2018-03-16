@@ -162,7 +162,7 @@ IIc.	Open the file mdm_config.py in a text-editor and change the following:
         and uncomment the line: path = os.getcwd(). 
         Save the mdm_config.py file
 
-IIIc.   run shell-script stem in the folder of your choice from the terminal
+IIIc.   run the shell-script stem in the folder of your choice from the terminal
 
 
 Installation on a Windows machine:
