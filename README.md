@@ -78,6 +78,7 @@ C. TERMS AND CONDITIONS FOR ACCESSING OR OTHERWISE USING STeM
 =============================================================
 
 STeM 
+----
 
 License:
 Copyright (C) 2018 Marcus Landschulze
@@ -97,6 +98,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/
 
 
 The text-mining functions are built on the Python NLTK API from the NLTK project.
+---------------------------------------------------------------------------------
 
 License:
 Copyright (C) 2001-2017 NLTK Project
@@ -138,6 +140,7 @@ PDF-reader such as Evince or Acrobat
 pdf2text converter
 
 Installation on a Linux machine:
+--------------------------------
 
 Ia.	Click on the SteM-x_all.deb in your install folder and follow the instructions (e.g. Synaptic)
 IIa.	Run stem from the terminal
@@ -147,19 +150,24 @@ or
 Ib.     sudo dpkg -i package_file.deb
 IIb.    Run stem from the terminal
 
-Installation on a Windows machine:
+or      
 
-I. 	Run the execute file: SteM-x-x86_64.exe
-
-
-Work-around for Windows, when you have no admin-rights:
-
-I.	Unpack the SteM-x.tar.gz in a folder with install rights.
-II.	Open the file mdm_config.py in a text-editor and change the following:
+Ic.     unpack STeM-x.x.tar.gz into a folder of your choice
+IIc.	Open the file mdm_config.py in a text-editor and change the following:
 	delete or comment out the line: path = „usr/local/etc“ line 
-and uncomment the line: path = os.getcwd() . 
-Save the mdm_config.py file
-III.	Run pyhton3 stem.
+        and uncomment the line: path = os.getcwd(). 
+        Save the mdm_config.py file
+IIIc.   run shell-script stem in the folder of your choice from the terminal
+
+
+Installation on a Windows machine:
+----------------------------------
+
+This do not require admin rights:
+
+I.	unpack the STeM-x.x.zip into a folder of your choice
+II.	run the stem.exe file
+
 
 
 Installed files:
