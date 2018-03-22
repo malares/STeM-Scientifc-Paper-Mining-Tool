@@ -116,6 +116,20 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expressed or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+XpdfTool
+--------
+I use pdftotext-tool to convert pdf to text-file.
+
+License:
+Copyright 2018 Glyph & Cog, LLC
+
+The xpdf toolkit is open source, dual licensed under GPL v2 and GPL v3. 
+You can distribute derivatives of Xpdf under any of (1) GPL v2 only, (2) 
+GPL v3 only, or (3) GPL v2 or v3.
+
+further information: https://www.xpdfreader.com/opensource.html
+
+
 
 D. DOWNLOAD
 ===========
@@ -170,7 +184,7 @@ Installation on a Windows machine:
 
 This do not require admin rights:
 
-I.	unpack the STeM-x.x.zip into a folder of your choice
+I.	unpack the STeM-x.x_standalone_Windows.zip into a folder of your choice
 
 II.	run the stem.exe file
 
