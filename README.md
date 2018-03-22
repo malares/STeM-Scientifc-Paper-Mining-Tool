@@ -118,7 +118,7 @@ limitations under the License.
 
 XpdfTool
 --------
-I use pdftotext-tool to convert pdf to text-file.
+I use pdftotext-tool to convert pdf to text-file on windows machines.
 
 License:
 Copyright 2018 Glyph & Cog, LLC
@@ -143,9 +143,7 @@ E. INSTALL
 ==========
 
 STeM is written in Python3 and should run on all platforms, but I have only tested it on
-Linux Ubuntu and Windows 8. However, for Windows machines I could not find a free available 
-command-line based pdf-to-text converter, so you can use Acrobat reader to manually
-convert the .pdf files to .txt and use the text files instead.
+Linux Ubuntu and Windows 10.
 
 Requirements:
 
